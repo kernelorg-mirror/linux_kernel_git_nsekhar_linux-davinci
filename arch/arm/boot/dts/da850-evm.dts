@@ -346,6 +346,9 @@
 			regulator-boot-on;
 		};
 	};
+	touchscreen {
+		ti,min-pressure = <0x30>;
+	};
 };
 
 &mcasp0 {
